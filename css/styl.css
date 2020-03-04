@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+h3 {color: orange}
+
+header {
+	background-color: #f4cafa;
+}
+
+nav {
+	height: 100px;
+	background-color: #ff7070;
+	text-align: center;
+
+}
+
+
+nav ul li {
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 13px;
+}
+
+li a {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+}
+
+img {
+	border: 5px solid #b6d3d4;
+	margin: 15px;
+	width: 40%;
+}
+
+h3 {text-align: center;}
+
+
+
+#button {
+	background-color: yellow;
+	color: orange;
+}
+
+@media(min-width: 320px){
+
+	h3 {
+		color: red;
+		font-size: 2rem;
+	}
+}
+
+@media(min-width: 320px){
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+
+#news1 {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
